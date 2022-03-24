@@ -23,7 +23,7 @@ class VocabularyController {
         return res.json(vocabulary)
     }
     async edit(req, res) {
-
+        Vocabulary.update()
     }
     async delete(req, res) {
 
