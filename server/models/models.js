@@ -25,7 +25,7 @@ const Term = sequelize.define('term', {
     word: { type: DataTypes.STRING },
     translation: { type: DataTypes.STRING },
     description: { type: DataTypes.STRING, allowNull: true },
-    translation: { type: DataTypes.STRING, allowNull: true }
+    descTranslation: { type: DataTypes.STRING, allowNull: true }
 })
 
 
